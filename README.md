@@ -27,7 +27,7 @@ _choose ubuntu OS_
 
 _create a keypair_
 
-![](./images/4.png)
+![](./images/40.png)
 
 _create a security group, to allow HTTPS traffic and lauch instance_
 
@@ -35,17 +35,17 @@ _create a security group, to allow HTTPS traffic and lauch instance_
 
 _let's ssh into our ubuntu terminal_
 
-`ssh -i Downloads/jenkinskey.pem ubuntu@54.219.139.207`
+`ssh -i Downloads/lamp-stack.pem ubuntu@54.219.139.207`
 
 _downloads: is where your keypair is kept_
 
-_jenkinskey.pem: is the name of your keypair_
+_lamp-stack.pem: is the name of your keypair_
 
 _ubuntu: is the name of your server_
 
 _54.219.139.207: is the ip address_
 
-![](./images/6.png)
+![](./images/41.png)
 
 __let's install apache2__
 
